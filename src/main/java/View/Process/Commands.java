@@ -53,8 +53,8 @@ public enum Commands {
     VIEW_CART(""),
     SHOW_PRODUCTS(""),
     //VIEW_PRODUCT
-    INCREASE_PRODUCT(""),
-    DECREASE_PRODUCT(""),
+    INCREASE_PRODUCT_COUNTS(""),
+    DECREASE_PRODUCT_COUNTS(""),
     SHOW_TOTAL_PRICE(""),
     PURCHASE(""),
     VIEW_ORDERS(""),
