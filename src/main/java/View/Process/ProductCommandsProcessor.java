@@ -5,6 +5,8 @@ public class ProductCommandsProcessor extends CommandsProcessor {
 
     private void digest(){}
 
+    private void processDigestCommands(){}
+
     private void addToCart(){}
 
     private void selectSeller(String sellerUserName){}
@@ -14,6 +16,8 @@ public class ProductCommandsProcessor extends CommandsProcessor {
     private void compareTo(String productId){}
 
     private void comments(){}
+
+    private void processCommentCommands(){}
 
     private void addComment(){}
 }

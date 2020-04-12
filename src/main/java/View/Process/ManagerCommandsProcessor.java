@@ -5,19 +5,25 @@ public class ManagerCommandsProcessor extends UserCommandsProcessor {
 
     private void manageUsers(){}
 
+    private void processManagingUsersCommands(){}
+
     private void viewUser(String userName){}
 
     private void deleteUser(String userName){}
 
     private void createManagerProfile(){}
 
-    private void manageAllPrducts(){}
+    private void processManagingProductsCommands(){}
+
+    private void manageAllProducts(){}
 
     private void removeProduct(String productId){}
 
     private void createDiscountCode(){}
 
     private void viewDiscountCodes(){}
+
+    private void processDiscountCodesCommands(){}
 
     private void viewDiscountCode(String code){}
 
@@ -27,6 +33,8 @@ public class ManagerCommandsProcessor extends UserCommandsProcessor {
 
     private void manageRequests(){}
 
+    private void processManagingRequestsCommands(){}
+
     private void giveRequestDetails(String requestId){}
 
     private void acceptRequest(String requestId){}
@@ -34,6 +42,8 @@ public class ManagerCommandsProcessor extends UserCommandsProcessor {
     private void declineRequest(String requestId){}
 
     private void manageCategories(){}
+
+    private void processManagingCategoriesCommands(){}
 
     private void editCategory(String categoryName){}
 

@@ -9,6 +9,8 @@ public class SalerCommandsProcessor extends UserCommandsProcessor {
 
     private void manageProducts(){}
 
+    private void processManagingProductsCommands(){}
+
     private void viewProduct(String productId){}
 
     private void viewProductBuyers(String productId){}
@@ -22,6 +24,8 @@ public class SalerCommandsProcessor extends UserCommandsProcessor {
     private void showCategories(){}
 
     private void viewOffs(){}
+
+    private void processOffsCommands(){}
 
     private void viewOff(String offId){}
 

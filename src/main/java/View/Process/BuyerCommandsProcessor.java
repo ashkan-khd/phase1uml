@@ -5,6 +5,8 @@ public class BuyerCommandsProcessor extends UserCommandsProcessor{
 
     private void viewCart(){}
 
+    private void processCartCommands(){}
+
     private void showProducts(){}
 
     private void viewProduct(String productId){}
@@ -17,7 +19,11 @@ public class BuyerCommandsProcessor extends UserCommandsProcessor{
 
     private void purchase(){}
 
+    private void processPurchaseCommands(){}
+
     private void viewOrders(){}
+
+    private void processOrdersCommands(){}
 
     private void showOrder(String orderId){}
 

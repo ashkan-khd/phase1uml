@@ -5,6 +5,10 @@ public class ProductsCommandsProcessor extends CommandsProcessor {
 
     private void viewCategories(){}
 
+    private void filtering(){}
+
+    private void processFilteringCommands(){}
+
     private void showAvailableFilters(){}
 
     private void filterBasedOnType(String filterType){}
@@ -14,6 +18,8 @@ public class ProductsCommandsProcessor extends CommandsProcessor {
     private void disableFilter(String selectedFilter){}
 
     private void sorting(){}
+
+    private void processSortingCommands(){}
 
     private void showAvailableSorts(){}
 
