@@ -1,4 +1,4 @@
-package View.Process.SortSubMenusProcessor;
+package View.Process.ProductSubMenusProcessor;
 
 import View.Process.Processor;
 
