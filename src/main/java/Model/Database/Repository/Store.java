@@ -12,7 +12,8 @@ public class Store {
     private HashMap<Product, Double> productsAmount;
     private Store()
     {
-        //new arraylists and hashmaps
+        //arraylists and hashmaps
+        //taking products from files
     }
     public static Store getInstance()
     {

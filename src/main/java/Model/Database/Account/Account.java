@@ -1,6 +1,12 @@
 package Model.Database.Account;
 
+import java.io.CharArrayReader;
+import java.util.ArrayList;
+
 public abstract class Account {
+    private static ArrayList<Customer> allCustomers;
+    private static ArrayList<Vendor> allVendors;
+    private static ArrayList<Admin> allAdmins;
     private String username;
     private String password;
     protected String type;
@@ -13,6 +19,12 @@ public abstract class Account {
         this.username = username;
         this.password = password;
         creatNewAccount(username, password);
+
+    }
+
+    //File
+    public void initAllAcounts() {
+
     }
 
     //File
