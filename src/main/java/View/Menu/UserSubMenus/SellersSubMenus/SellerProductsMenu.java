@@ -1,4 +1,4 @@
-package View.Menu.UsersSubMenus.SellersSubMenus;
+package View.Menu.UserSubMenus.SellersSubMenus;
 
 import View.Menu.Menu;
 
