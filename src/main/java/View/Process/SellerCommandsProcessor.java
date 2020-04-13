@@ -1,7 +1,7 @@
 package View.Process;
 
-public class SalerCommandsProcessor extends UserCommandsProcessor {
-    public void processSalersCommands(){}
+public class SellerCommandsProcessor extends UserCommandsProcessor {
+    public void processSellersCommands(){}
 
     private void viewCompanyInformation(){}
 

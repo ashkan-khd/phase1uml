@@ -93,7 +93,9 @@ public enum Commands {
     //SHOW_PRODUCT
     //SEARCH & FILTERING
 
-    HELP("(?i)help");
+    HELP("(?i)help"),
+    BACK(""),
+    EXIT("");
 
     protected Pattern commandPattern;
 

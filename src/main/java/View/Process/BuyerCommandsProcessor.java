@@ -9,7 +9,9 @@ public class BuyerCommandsProcessor extends UserCommandsProcessor{
 
     private void showProducts(){}
 
-    private void viewProduct(String productId){}
+    private void viewProduct(String productId){
+
+    }
 
     private void increaseProductCounts(String productId){}
 

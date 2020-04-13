@@ -6,11 +6,14 @@ import java.util.Scanner;
 
 public abstract class Menu {
     protected static Scanner scanner;
+    //protected static boolean hasLoggedIn;
+
+    //Object of commands
+
     protected String name;
     protected Menu superMenu;
     protected HashMap<Integer, Menu> subMenus;
     protected ArrayList<String> menuCommands;
-    protected boolean hasLoggedIn;
 
     public Menu(String name, Menu superMenu) {
         this.name = name;
@@ -31,9 +34,7 @@ public abstract class Menu {
 
     public void showMenuCommands(){}
 
-    public void addSubMenu(Menu subMenu){
-
-    }
+    public void addSubMenu(Menu subMenu){}
 
     public void show(){}
 
