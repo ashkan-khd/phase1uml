@@ -1,5 +1,6 @@
-package Controller;
+package Controller.User;
 
+import Controller.Controller;
 import Model.Database.Account.Account;
 
 public class User extends Controller{

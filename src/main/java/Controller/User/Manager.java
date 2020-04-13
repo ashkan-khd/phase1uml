@@ -1,6 +1,5 @@
-package Controller;
+package Controller.User;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Manager extends User{

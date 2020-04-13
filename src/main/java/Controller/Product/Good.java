@@ -1,5 +1,6 @@
-package Controller;
+package Controller.Product;
 
+import Controller.Controller;
 import Model.Database.Repository.Product;
 
 public class Good extends Controller {

@@ -1,4 +1,4 @@
-package Controller;
+package Controller.User;
 
 public class Buyer extends User {
     public String[] viewCart(){}
