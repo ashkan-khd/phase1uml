@@ -31,7 +31,7 @@ public class Seller extends User{
 
     public String[] viewAllOffProducts(){}
 
-    public String[] viewASpecificOff(String offId){}
+    public String[ ] viewASpecificOff(String offId){}
 
     public boolean editASpecificOff(String offId){}
 

@@ -1,6 +1,7 @@
 package Controller;
 
-public class Product extends Controller{
+public class Products extends Controller{
+
     public boolean products(){}
 
     public String[] viewCategories(){}
@@ -24,6 +25,4 @@ public class Product extends Controller{
     public String[] showProducts(){}
 
     public String[] showSpecificProduct(String productId){}
-
-
 }

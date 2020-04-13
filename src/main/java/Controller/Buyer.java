@@ -1,7 +1,6 @@
 package Controller;
 
 public class Buyer extends User {
-
     public String[] viewCart(){}
 
     public String[]  showProducts(){}

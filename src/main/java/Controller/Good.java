@@ -1,6 +1,13 @@
 package Controller;
 
+import Model.Database.Repository.Product;
+
 public class Good extends Controller {
+    private Product product;
+
+    public Good(Product product) {
+        this.product = product;
+    }
 
     public String[] digest(){}
 
@@ -10,9 +17,7 @@ public class Good extends Controller {
 
     public String[] showAttributes(){}
 
-    public String[] compareTwoProducts(String  productId){}
+    public String[] compareToAnotherProducts(String  productId){}
 
     public boolean addComment(String[] comment){}
-
-
 }

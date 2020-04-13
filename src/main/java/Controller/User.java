@@ -1,9 +1,11 @@
 package Controller;
 
+import Model.Database.Account.Account;
+
 public class User extends Controller{
-    // add an account from model
-    protected String username;
+    protected Account account;
     private boolean isClientLogin;
+
 
     public boolean isClientLogin() {
         return isClientLogin;
