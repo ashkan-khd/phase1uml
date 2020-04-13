@@ -18,6 +18,4 @@ public class ProductMenuProcessor extends Processor {
     //private void comments(){}
 
     //private void processCommentCommands(){}
-
-    private void addComment(){}
 }
