@@ -1,4 +1,6 @@
-package View.Menu;
+package View.Menu.UserMenus;
+
+import View.Menu.Menu;
 
 public class UserMenu extends Menu {
     public UserMenu(Menu superMenu) {

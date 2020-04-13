@@ -1,13 +1,13 @@
 package View.Process;
 
-public class ProductsCommandsProcessor extends CommandsProcessor {
-    public void processProductsCommands(){}
+public class ProductsMenuProcessor extends Processor {
+    //public void processProductsCommands(){}
 
     private void viewCategories(){}
 
-    private void filtering(){}
+    //private void filtering(){}
 
-    private void processFilteringCommands(){}
+    //private void processFilteringCommands(){}
 
     private void showAvailableFilters(){}
 
@@ -17,9 +17,9 @@ public class ProductsCommandsProcessor extends CommandsProcessor {
 
     private void disableFilter(String selectedFilter){}
 
-    private void sorting(){}
+    //private void sorting(){}
 
-    private void processSortingCommands(){}
+    //private void processSortingCommands(){}
 
     private void showAvailableSorts(){}
 

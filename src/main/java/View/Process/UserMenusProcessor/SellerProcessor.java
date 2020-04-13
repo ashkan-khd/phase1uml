@@ -1,15 +1,15 @@
-package View.Process;
+package View.Process.UserMenusProcessor;
 
-public class SellerCommandsProcessor extends UserCommandsProcessor {
-    public void processSellersCommands(){}
+public class SellerProcessor extends UserProcessor {
+    //public void processSellersCommands(){}
 
     private void viewCompanyInformation(){}
 
     private void viewSalesHistory(){}
 
-    private void manageProducts(){}
+    //private void manageProducts(){}
 
-    private void processManagingProductsCommands(){}
+    //private void processManagingProductsCommands(){}
 
     private void viewProduct(String productId){}
 
@@ -23,9 +23,9 @@ public class SellerCommandsProcessor extends UserCommandsProcessor {
 
     private void showCategories(){}
 
-    private void viewOffs(){}
+    //private void viewOffs(){}
 
-    private void processOffsCommands(){}
+    //private void processOffsCommands(){}
 
     private void viewOff(String offId){}
 

@@ -1,11 +1,11 @@
-package View.Process;
+package View.Process.UserMenusProcessor;
 
-public class ManagerCommandsProcessor extends UserCommandsProcessor {
-    public void processManagerCommands(){}
+public class ManagerProcessor extends UserProcessor {
+    //public void processManagerCommands(){}
 
-    private void manageUsers(){}
+    //private void manageUsers(){}
 
-    private void processManagingUsersCommands(){}
+    //private void processManagingUsersCommands(){}
 
     private void viewUser(String userName){}
 
@@ -13,9 +13,9 @@ public class ManagerCommandsProcessor extends UserCommandsProcessor {
 
     private void createManagerProfile(){}
 
-    private void processManagingProductsCommands(){}
+    //private void processManagingProductsCommands(){}
 
-    private void manageAllProducts(){}
+    //private void manageAllProducts(){}
 
     private void removeProduct(String productId){}
 
@@ -23,7 +23,7 @@ public class ManagerCommandsProcessor extends UserCommandsProcessor {
 
     private void viewDiscountCodes(){}
 
-    private void processDiscountCodesCommands(){}
+    //private void processDiscountCodesCommands(){}
 
     private void viewDiscountCode(String code){}
 
@@ -31,9 +31,9 @@ public class ManagerCommandsProcessor extends UserCommandsProcessor {
 
     private void removeDiscountCode(String code){}
 
-    private void manageRequests(){}
+    //private void manageRequests(){}
 
-    private void processManagingRequestsCommands(){}
+    //private void processManagingRequestsCommands(){}
 
     private void giveRequestDetails(String requestId){}
 
@@ -41,7 +41,7 @@ public class ManagerCommandsProcessor extends UserCommandsProcessor {
 
     private void declineRequest(String requestId){}
 
-    private void manageCategories(){}
+    //private void manageCategories(){}
 
     private void processManagingCategoriesCommands(){}
 

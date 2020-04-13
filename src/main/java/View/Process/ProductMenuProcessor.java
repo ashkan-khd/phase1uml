@@ -1,11 +1,11 @@
 package View.Process;
 
-public class ProductCommandsProcessor extends CommandsProcessor {
-    public void processProductCommands(){}
+public class ProductMenuProcessor extends Processor {
+    //public void processProductCommands(){}
 
     private void digest(){}
 
-    private void processDigestCommands(){}
+    //private void processDigestCommands(){}
 
     private void addToCart(){}
 
@@ -15,9 +15,9 @@ public class ProductCommandsProcessor extends CommandsProcessor {
 
     private void compareTo(String productId){}
 
-    private void comments(){}
+    //private void comments(){}
 
-    private void processCommentCommands(){}
+    //private void processCommentCommands(){}
 
     private void addComment(){}
 }

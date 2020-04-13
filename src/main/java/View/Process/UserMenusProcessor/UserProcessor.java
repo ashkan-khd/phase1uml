@@ -1,6 +1,8 @@
-package View.Process;
+package View.Process.UserMenusProcessor;
 
-public class UserCommandsProcessor extends CommandsProcessor {
+import View.Process.Processor;
+
+public class UserProcessor extends Processor {
     public void viewPersonalInfo(){}
 
     public void processPersonalInfoCommands(){}

@@ -2,7 +2,6 @@ package View.Process;
 
 import java.util.Scanner;
 
-public abstract class CommandsProcessor {
+public abstract class Processor {
     private static Scanner scanner;
-
 }

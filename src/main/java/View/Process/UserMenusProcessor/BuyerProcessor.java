@@ -1,11 +1,11 @@
-package View.Process;
+package View.Process.UserMenusProcessor;
 
-public class BuyerCommandsProcessor extends UserCommandsProcessor{
-    public void processBuyersCommands(){}
+public class BuyerProcessor extends UserProcessor {
+    //public void processBuyersCommands(){}
 
-    private void viewCart(){}
+    //private void viewCart(){}
 
-    private void processCartCommands(){}
+    //private void processCartCommands(){}
 
     private void showProducts(){}
 
@@ -19,13 +19,13 @@ public class BuyerCommandsProcessor extends UserCommandsProcessor{
 
     private void showTotalPrice(){}
 
-    private void purchase(){}
+    //private void purchase(){}
 
-    private void processPurchaseCommands(){}
+    //private void processPurchaseCommands(){}
 
-    private void viewOrders(){}
+    //private void viewOrders(){}
 
-    private void processOrdersCommands(){}
+    //private void processOrdersCommands(){}
 
     private void showOrder(String orderId){}
 
