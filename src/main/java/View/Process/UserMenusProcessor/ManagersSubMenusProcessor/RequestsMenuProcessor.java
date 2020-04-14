@@ -1,8 +1,8 @@
 package View.Process.UserMenusProcessor.ManagersSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.UserMenusProcessor.ManagerProcessor;
 
-public class RequestsMenuProcessor extends Processor {
+public class RequestsMenuProcessor extends ManagerProcessor {
     public void nextPage(){}
 
     public void previousPage(){}

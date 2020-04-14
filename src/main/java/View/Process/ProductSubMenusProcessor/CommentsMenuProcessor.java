@@ -1,8 +1,8 @@
 package View.Process.ProductSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.ProductMenuProcessor;
 
-public class CommentsMenuProcessor extends Processor {
+public class CommentsMenuProcessor extends ProductMenuProcessor {
     public void showComments(){}
 
     public void addComment(){}

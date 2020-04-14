@@ -1,5 +1,5 @@
 package View.Process;
 
-public class OffsMenuProcessor extends Processor {
+public class OffsMenuProcessor extends ProductsMenuProcessor {
 
 }
