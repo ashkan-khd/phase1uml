@@ -1,10 +1,15 @@
 package View.Menu;
 
-public class MainMenu extends Menu {
+import View.Process.MainMenuProcessor;
 
-    public void show(){}
+public class MainMenu extends Menu {
+    private MainMenuProcessor mainMenuProcessor;
 
     public MainMenu(String name, Menu superMenu) {
         super(name, superMenu);
     }
+
+    public void show(){}
+
+    public void execute(){}
 }

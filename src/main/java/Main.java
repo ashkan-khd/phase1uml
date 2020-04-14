@@ -2,6 +2,8 @@ import View.Menu.MainMenu;
 
 public class Main {
     public static void main(String[] args) {
-        new MainMenu().show();
+        MainMenu mainMenu = new MainMenu("MainMenu", null);
+        mainMenu.show();
+        mainMenu.execute();
     }
 }
