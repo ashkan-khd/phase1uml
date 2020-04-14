@@ -4,7 +4,7 @@ import View.Menu.Menu;
 import View.Menu.UserMenus.UserMenu;
 
 public class BuyerMenu extends UserMenu {
-    public BuyerMenu(Menu superMenu) {
-        super(superMenu);
+    public BuyerMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
 }

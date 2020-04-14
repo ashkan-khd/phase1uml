@@ -1,8 +1,8 @@
 package View.Menu;
 
-public class RegistrationMenu extends Menu {
+public class RegistrationMenu extends MainMenu {
 
-    public RegistrationMenu(Menu superMenu) {
-        super("loginMenu", superMenu);
+    public RegistrationMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
 }

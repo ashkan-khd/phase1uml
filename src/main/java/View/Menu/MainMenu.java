@@ -4,7 +4,7 @@ public class MainMenu extends Menu {
 
     public void show(){}
 
-    public MainMenu() {
-        super("firstMenu", null);
+    public MainMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
 }

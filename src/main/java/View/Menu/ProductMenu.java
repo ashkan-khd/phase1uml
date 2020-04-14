@@ -1,8 +1,8 @@
 package View.Menu;
 
-public class ProductMenu extends Menu {
-    public ProductMenu(Menu superMenu) {
-        super("productMenu", superMenu);
+public class ProductMenu extends ProductsMenu {
+    public ProductMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
 
 

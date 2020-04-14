@@ -1,10 +1,12 @@
 package View.Menu.UserMenus;
 
+import View.Menu.MainMenu;
 import View.Menu.Menu;
 
-public class UserMenu extends Menu {
-    public UserMenu(Menu superMenu) {
-        super("userMenu", superMenu);
+public class UserMenu extends MainMenu {
+
+    public UserMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
     private String user;            //**
 

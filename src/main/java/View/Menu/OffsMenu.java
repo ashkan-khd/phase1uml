@@ -2,9 +2,9 @@ package View.Menu;
 
 import java.util.ArrayList;
 
-public class OffsMenu extends Menu {
-    public OffsMenu(Menu superMenu) {
-        super("salesMenu", superMenu);
+public class OffsMenu extends ProductsMenu {
+    public OffsMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
     private ArrayList<String> offProducts;                  //**
     private ArrayList<String> searchedOffProducts;         //**
