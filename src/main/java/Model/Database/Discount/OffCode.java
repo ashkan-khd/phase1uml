@@ -1,13 +1,15 @@
 package Model.Database.Discount;
 
 import Model.Database.Account.Customer;
-import Model.Database.Repository.Product;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class OffCode {
     private String name;
     private String code;
+    private Date startDate;
+    private Date endDate;
     private ArrayList<Customer> involvedCustomers;
 
     public OffCode(String name, String code) {
@@ -36,5 +38,9 @@ public class OffCode {
     {
         this.involvedCustomers.add(customer);
     }
+
+    public void setStartDate() {}
+
+    public void setEndDate(Date date) {}
 
 }

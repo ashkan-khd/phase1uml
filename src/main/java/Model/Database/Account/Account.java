@@ -4,9 +4,7 @@ import java.io.CharArrayReader;
 import java.util.ArrayList;
 
 public abstract class Account {
-    private static ArrayList<Customer> allCustomers;
-    private static ArrayList<Vendor> allVendors;
-    private static ArrayList<Admin> allAdmins;
+    private AccountStore accstore;
     private String username;
     private String password;
     protected String type;
@@ -19,7 +17,7 @@ public abstract class Account {
         this.username = username;
         this.password = password;
         creatNewAccount(username, password);
-
+        this.accstore = AccountStore.getInstance();
     }
 
     //File
@@ -66,10 +64,6 @@ public abstract class Account {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
-    public static boolean isUsernameFree(String username) {return true;}
-
-    public static boolean isUsernameAndPasswordMatch(String username, String password) {return true;}
 
 
 }

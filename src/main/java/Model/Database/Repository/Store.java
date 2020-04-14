@@ -32,7 +32,7 @@ public class Store {
 
     private void addUncountableProduct(Product product, double amount) {}
 
-    public void getAllProductsF() {}
+    private void getAllProductsF() {}
 
 
 }
