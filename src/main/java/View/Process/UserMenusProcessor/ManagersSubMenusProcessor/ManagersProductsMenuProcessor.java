@@ -1,8 +1,8 @@
 package View.Process.UserMenusProcessor.ManagersSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.UserMenusProcessor.ManagerProcessor;
 
-public class ManagersProductsMenuProcessor extends Processor {
+public class ManagersProductsMenuProcessor extends ManagerProcessor {
     public void showProducts(){}
 
     public void removeProduct(String productId){}

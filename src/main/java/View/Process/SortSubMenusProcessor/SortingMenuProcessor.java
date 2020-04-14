@@ -1,8 +1,8 @@
 package View.Process.SortSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.ProductsMenuProcessor;
 
-public class SortingMenuProcessor extends Processor {
+public class SortingMenuProcessor extends ProductsMenuProcessor {
     public void showAvailableSorts(){}
 
     public void sortBasedOnType(String sortType){}

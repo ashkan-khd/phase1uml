@@ -1,8 +1,8 @@
 package View.Process.UserMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.MainMenuProcessor;
 
-public class UserProcessor extends Processor {
+public class UserProcessor extends MainMenuProcessor {
     //public void viewPersonalInfo(){}
 
     //public void processPersonalInfoCommands(){}

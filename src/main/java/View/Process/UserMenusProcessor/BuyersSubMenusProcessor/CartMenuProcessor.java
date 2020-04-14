@@ -1,8 +1,8 @@
 package View.Process.UserMenusProcessor.BuyersSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.UserMenusProcessor.BuyerProcessor;
 
-public class CartMenuProcessor extends Processor {
+public class CartMenuProcessor extends BuyerProcessor {
     public void showProducts(){}
 
     public void viewProduct(String productId){}

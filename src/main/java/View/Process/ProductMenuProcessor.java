@@ -1,6 +1,6 @@
 package View.Process;
 
-public class ProductMenuProcessor extends Processor {
+public class ProductMenuProcessor extends ProductsMenuProcessor {
     //public void processProductCommands(){}
 
     private void digest(){}

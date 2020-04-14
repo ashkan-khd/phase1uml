@@ -1,8 +1,8 @@
 package View.Process.UserMenusProcessor.BuyersSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.UserMenusProcessor.BuyerProcessor;
 
-public class OrdersMenuProcessor extends Processor {
+public class OrdersMenuProcessor extends BuyerProcessor {
     public void showOrders(){}
 
     public void showOrder(String orderId){}

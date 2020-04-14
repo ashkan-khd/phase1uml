@@ -1,6 +1,6 @@
 package View.Process;
 
-public class ProductsMenuProcessor extends Processor {
+public class ProductsMenuProcessor extends MainMenuProcessor {
     public void nextPage(){}
 
     public void previousPage(){}
