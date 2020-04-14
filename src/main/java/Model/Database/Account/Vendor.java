@@ -2,13 +2,13 @@ package Model.Database.Account;
 
 import Model.Database.Discount.Sale;
 import Model.Database.Log.VendorLog;
+import Model.Database.Repository.Product;
 
 import java.util.ArrayList;
 
 public class Vendor extends Account {
     private ArrayList<VendorLog> logs;
     private ArrayList<Sale> sales;
-
 
     public Vendor(String username, String password) {
         super(username, password);
