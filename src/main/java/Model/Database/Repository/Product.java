@@ -13,14 +13,12 @@ public class Product {
      //final category
     private int score;
     private int scoreCounter;
-    private ArrayList<String> comments;
+    private ArrayList<Comment> comments;
     private String name;
     private String company;
     private Vendor vendor;
     private String initPrice;
     private boolean isCountable;
-    private int counter;
-    private double amount;
     private Store store;
 
     public Product(String name, String company, Vendor vendor, String initPrice, boolean isCountable) {
@@ -35,7 +33,7 @@ public class Product {
         this.score = 0;
         this.scoreCounter = 0;
         this.stat = ProductStat.GENERATING;
-        this.comments = new ArrayList<String>();
+        this.comments = new ArrayList<Comment>();
         this.addToStore();
         
     }
@@ -45,14 +43,6 @@ public class Product {
 
     private String generateNewId() {
         return "new String";
-    }
-
-    public void setCounter(int counter) {
-        this.counter = counter;
-    }
-
-    public void setAmount(float amount) {
-        this.amount = amount;
     }
 
     public String getId() {
@@ -68,7 +58,7 @@ public class Product {
     }
 
     public ArrayList<String> getComments() {
-        return comments;
+        return new ArrayList<String>();
     }
 
     public String getName() {
@@ -91,11 +81,4 @@ public class Product {
         return isCountable;
     }
 
-    public int getCounter() {
-        return counter;
-    }
-
-    public double getAmount() {
-        return amount;
-    }
 }

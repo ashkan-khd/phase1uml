@@ -10,6 +10,7 @@ public class Customer extends Account {
     public Customer(String username, String password) {
         super(username, password);
         this.type = "Customer";
+        this.logs = new ArrayList<CustomerLog>();
     }
 
 }
