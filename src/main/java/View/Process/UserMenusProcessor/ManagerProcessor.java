@@ -1,6 +1,10 @@
 package View.Process.UserMenusProcessor;
 
+import Controller.User.Manager;
+
 public class ManagerProcessor extends UserProcessor {
+    protected Manager manager;
+
     //public void processManagerCommands(){}
 
     //private void manageUsers(){}

@@ -1,6 +1,10 @@
 package View.Process;
 
+import Controller.Product.Products;
+
 public class ProductsMenuProcessor extends MainMenuProcessor {
+    protected Products products;
+
     public void nextPage(){}
 
     public void previousPage(){}

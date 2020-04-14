@@ -1,6 +1,10 @@
 package View.Process;
 
+import Controller.Product.Good;
+
 public class ProductMenuProcessor extends ProductsMenuProcessor {
+    protected Good good;
+
     //public void processProductCommands(){}
 
     private void digest(){}

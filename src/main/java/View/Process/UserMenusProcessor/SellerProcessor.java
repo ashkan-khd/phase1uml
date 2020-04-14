@@ -1,6 +1,10 @@
 package View.Process.UserMenusProcessor;
 
+import Controller.User.Seller;
+
 public class SellerProcessor extends UserProcessor {
+    protected Seller seller;
+
     //public void processSellersCommands(){}
 
     private void viewCompanyInformation(){}
