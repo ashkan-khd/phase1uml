@@ -30,4 +30,14 @@ public class Customer extends Account {
     public void setCart(ArrayList<Product> cart) {
         this.cart = cart;
     }
+
+    public void addLog(CustomerLog log)
+    {
+
+    }
+
+    public void addCart(Product product)
+    {
+
+    }
 }
