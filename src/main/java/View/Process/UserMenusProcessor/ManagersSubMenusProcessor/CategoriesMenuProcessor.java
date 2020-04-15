@@ -1,8 +1,8 @@
 package View.Process.UserMenusProcessor.ManagersSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.UserMenusProcessor.ManagerProcessor;
 
-public class CategoriesMenuProcessor extends Processor {
+public class CategoriesMenuProcessor extends ManagerProcessor {
     public void showCategories(){}
 
     public void editCategory(String categoryName){}

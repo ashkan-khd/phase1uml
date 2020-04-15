@@ -1,7 +1,12 @@
 package View.Process;
 
-public class RegistrationMenuProcessor extends Processor {
-    //public static void processRegisterationCommands(){}
+import Controller.User.User;
+import Model.Database.Repository.Product;
+
+public class RegistrationMenuProcessor extends MainMenuProcessor {
+    protected User user;
+
+    //public static void processRegistrationCommands(){}
 
     private void register(){}
 

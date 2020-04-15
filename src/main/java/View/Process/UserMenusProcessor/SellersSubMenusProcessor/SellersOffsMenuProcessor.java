@@ -1,8 +1,8 @@
 package View.Process.UserMenusProcessor.SellersSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.UserMenusProcessor.SellerProcessor;
 
-public class SellersOffsMenuProcessor extends Processor {
+public class SellersOffsMenuProcessor extends SellerProcessor {
     public void showOffs(){}
 
     public void viewOff(String offId){}

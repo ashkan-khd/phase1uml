@@ -1,5 +1,8 @@
 package View.Process;
 
-public class OffsMenuProcessor extends Processor {
+import Controller.Product.Offer;
+
+public class OffsMenuProcessor extends ProductsMenuProcessor {
+    protected Offer offer;
 
 }

@@ -1,9 +1,15 @@
 package View.Menu;
 
-public class ProductMenu extends Menu {
-    public ProductMenu(Menu superMenu) {
-        super("productMenu", superMenu);
+import View.Process.ProductMenuProcessor;
+
+public class ProductMenu extends ProductsMenu {
+    ProductMenuProcessor productMenuProcessor;
+
+    public ProductMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
 
+    public void show(){}
 
+    public void execute(){}
 }

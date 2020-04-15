@@ -1,12 +1,18 @@
 package View.Menu;
 
+import View.Process.ProductsMenuProcessor;
+
 import java.util.ArrayList;
 
-public class ProductsMenu extends Menu {
-    public ProductsMenu(Menu superMenu) {
-        super("productMenu", superMenu);
+public class ProductsMenu extends MainMenu {
+    ProductsMenuProcessor productsMenuProcessor;
+
+    public ProductsMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
-    ArrayList<String> products;             //**
-    ArrayList<String> searchedProducts;         //**
-    String search;          //**
+
+    public void show(){}
+
+    public void execute(){}
+
 }

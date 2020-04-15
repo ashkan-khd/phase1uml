@@ -1,6 +1,10 @@
 package View.Process.UserMenusProcessor;
 
+import Controller.User.Buyer;
+
 public class BuyerProcessor extends UserProcessor {
+    protected Buyer buyer;
+
     //public void processBuyersCommands(){}
 
     //private void viewCart(){}

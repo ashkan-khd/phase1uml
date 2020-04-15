@@ -1,8 +1,11 @@
 package View.Process.UserMenusProcessor;
 
-import View.Process.Processor;
+import Controller.User.User;
+import View.Process.MainMenuProcessor;
 
-public class UserProcessor extends Processor {
+public class UserProcessor extends MainMenuProcessor {
+    protected User user;
+
     //public void viewPersonalInfo(){}
 
     //public void processPersonalInfoCommands(){}

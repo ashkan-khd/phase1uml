@@ -1,8 +1,8 @@
 package View.Process.UserMenusProcessor.ManagersSubMenusProcessor;
 
-import View.Process.Processor;
+import View.Process.UserMenusProcessor.ManagerProcessor;
 
-public class ManagersDiscountCodesMenuProcessor extends Processor {
+public class ManagersDiscountCodesMenuProcessor extends ManagerProcessor {
     public void showDiscountCodes(){}
 
     public void viewDiscountCode(String code){}

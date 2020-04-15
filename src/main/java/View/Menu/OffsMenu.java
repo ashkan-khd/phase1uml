@@ -1,18 +1,17 @@
 package View.Menu;
 
+import View.Process.OffsMenuProcessor;
+
 import java.util.ArrayList;
 
-public class OffsMenu extends Menu {
-    public OffsMenu(Menu superMenu) {
-        super("salesMenu", superMenu);
-    }
-    private ArrayList<String> offProducts;                  //**
-    private ArrayList<String> searchedOffProducts;         //**
-    private String search;                                  //**
+public class OffsMenu extends ProductsMenu {
+    private OffsMenuProcessor offsMenuProcessor;
 
-    public ArrayList<String> getSaleProducts() {
-        return offProducts;
+    public OffsMenu(String name, Menu superMenu) {
+        super(name, superMenu);
     }
 
+    public void show(){}
 
+    public void execute(){}
 }
