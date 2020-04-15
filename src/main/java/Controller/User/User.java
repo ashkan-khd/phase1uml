@@ -2,11 +2,16 @@ package Controller.User;
 
 import Controller.Controller;
 import Model.Database.Account.Account;
+import Model.Database.Account.AccountStore;
 
 public class User extends Controller{
     protected Account account;
+    protected AccountStore accountStore;
     private boolean isClientLogin;
 
+    public User() {
+        this.accountStore = AccountStore.getInstance();
+    }
 
     public boolean isClientLogin() {
         return isClientLogin;
