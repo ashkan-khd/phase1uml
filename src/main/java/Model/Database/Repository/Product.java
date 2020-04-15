@@ -20,6 +20,7 @@ public class Product {
     private String initPrice;
     private boolean isCountable;
     private Store store;
+    private ArrayList<Category> mainCategories;
 
     public Product(String name, String company, Vendor vendor, String initPrice, boolean isCountable) {
         this.name = name;
@@ -34,6 +35,7 @@ public class Product {
         this.scoreCounter = 0;
         this.stat = ProductStat.GENERATING;
         this.comments = new ArrayList<Comment>();
+        this.mainCategories = new ArrayList<Category>();
         this.addToStore();
         
     }
@@ -79,6 +81,11 @@ public class Product {
 
     public boolean isCountable() {
         return isCountable;
+    }
+
+    public void addCategory(Category category)
+    {
+
     }
 
 }
